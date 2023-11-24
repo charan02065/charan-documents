@@ -1,0 +1,63 @@
+overview of some essential Linux commands:
+
+### Navigation:
+
+- pwd : Shows the present working directory.
+- ls  : Lists files and directories.
+- l   : Long format with detailed information.
+- a   : Shows hidden files.
+- cd  : Changes directory.
+- cd .. : Moves up one directory.
+- cd ~  : Moves to the home directory.
+- mkdir : Creates a new directory.
+- rmdir : Removes an empty directory.
+- rm    : Removes files or directories.
+- r     : Recursive deletion (use with caution).
+
+### File Operations:
+
+- touch : Creates an empty file or updates the timestamp of an existing file.
+- cp    : Copies files or directories.
+- r     : Recursive copy for directories.
+- mv    : Moves or renames files or directories.
+- cat   : Concatenates and displays file content.
+- less` or more  : Allows viewing files page by page.
+- head` and tail : Show the beginning or end of a file.
+- -n    : Specifies the number of lines.
+
+### File Permissions:
+
+- chmod : Changes file permissions.
+  - `u` (user), `g` (group), `o` (others).
+  - `+` (add permission), `-` (remove permission).
+  - `r` (read), `w` (write), `x` (execute).
+
+### Searching:
+
+- grep  : Searches for patterns in files.
+  - `-i`: Case-insensitive search.
+  - `-r`: Recursive search in directories.
+  - find: Searches for files and directories.
+  - `-name`: Searches by name.
+
+### System Information:
+
+- uname : Displays system information.
+  - `-a`: All system information.
+- df    : Shows disk space usage.
+- free  : Displays memory usage.
+
+### Networking:
+
+- ping : Checks network connectivity.
+- ifconfig` or `ip`: Displays network interface information.
+- ssh : Connects to a remote machine securely.
+- scp : Securely copies files between machines.
+
+
+### Miscellaneous:
+
+- date : Displays or sets the system date and time.
+- echo : Prints text or variables to the terminal.
+- man  : Displays the manual for a command.
+- q    : Quits the manual.
